@@ -378,11 +378,12 @@ hdmi_mode=87
 
 hdmi_cvt 1024 600 60 6 0 0 0
 
+### Driver install:
+
+sudo ./LCD101-1024x600-show
+
 # Revert back to regular monitor output (HDMI) :
 
 sudo ./LCD-hdmi
 
 
-### Driver install:
-
-sudo ./LCD101-1024x600-show
